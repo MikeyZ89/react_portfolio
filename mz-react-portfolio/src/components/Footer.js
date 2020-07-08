@@ -10,12 +10,9 @@ function Footer() {
     return( 
         <footer className="mt-5">
             <Container fluid={true}>
-                <Row className="border-top justify-content-between p-3">
-                    <Col className="p-0" md={3} sm={12}>
-                        All Rights Reserved 2020
-                    </Col>
-                    <Col className="p-0 d-flex justify-content-end" md={3} sm={12}>
-                        <img src={mzlogo} alt="MZ Logo" height="30px" width="40px"/>
+                <Row className="border-top justify-content-middle">
+                    <Col className="center pt-3">
+                        <h6><img src={mzlogo} alt="MZ Logo" height="30px" width="40px"/> All Rights Reserved 2020</h6>
                     </Col>
                 </Row>
             </Container>

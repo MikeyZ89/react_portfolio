@@ -20,7 +20,6 @@ class ContactPage extends React.Component {
         }
     }
 
-
     handleChange = (event) => {
         const target = event.target;
         const value = target.type === 'checkbox' ? target.checked : target.value;
@@ -30,7 +29,6 @@ class ContactPage extends React.Component {
             [name]: value
         })
     }
-
 
     handleSubmit = (event) => {
         event.preventDefault();
@@ -63,7 +61,6 @@ class ContactPage extends React.Component {
                     emailSent: false
                 });
             })
-
     }
 
     render() {
@@ -104,7 +101,6 @@ class ContactPage extends React.Component {
             </div>
         );
     }
-
 }
 
 export default ContactPage;
