@@ -24,7 +24,7 @@ class Carousel extends React.Component {
                 },
                 {
                     id: 1,
-                    title: 'Featured Application',
+                    title: 'Z\'s Featured Application',
                     subTitle: 'Employee Directory',
                     imgSrc: z,
                     link: 'https://mikeyz89.github.io/employee_directory/',

@@ -2,6 +2,7 @@
   "name": "mz-react-portfolio",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://mikeyz89.github.io/mz-react-portfolio",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
@@ -11,6 +12,7 @@
     "react": "^16.13.1",
     "react-bootstrap": "^1.1.1",
     "react-dom": "^16.13.1",
+    "react-download-link": "^2.3.0",
     "react-mail-form": "^2.1.0",
     "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.1",
@@ -18,6 +20,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -36,5 +40,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^3.1.0"
   }
 }

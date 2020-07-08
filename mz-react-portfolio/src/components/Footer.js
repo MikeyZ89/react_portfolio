@@ -12,10 +12,10 @@ function Footer() {
             <Container fluid={true}>
                 <Row className="border-top justify-content-between p-3">
                     <Col className="p-0" md={3} sm={12}>
-                        MZ All Rights Reserved 2020
+                        All Rights Reserved 2020
                     </Col>
                     <Col className="p-0 d-flex justify-content-end" md={3} sm={12}>
-                        <img src={mzlogo} alt="MZ Logo" height="50px" width="70px"/>
+                        <img src={mzlogo} alt="MZ Logo" height="30px" width="40px"/>
                     </Col>
                 </Row>
             </Container>
