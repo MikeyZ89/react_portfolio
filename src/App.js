@@ -9,7 +9,7 @@ import Footer from './components/Footer';
 import HomePage from './pages/HomePage';
 import AboutPage from './pages/AboutPage';
 import ContactPage from './pages/ContactPage';
-import mzlogo from '/Users/mz/code/homework/react_portfolio/mz-react-portfolio/src/assets/images/mzlogo.png';
+import mzlogo from './assets/images/mzlogo.png';
 
 
 class App extends React.Component {
