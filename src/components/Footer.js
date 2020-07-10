@@ -3,7 +3,7 @@ import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import mzlogo from '/Users/mz/code/homework/react_portfolio/src/assets/images/mzlogo.png';
+import mzlogo from '../assets/images/mzlogo.png';
 
 function Footer() {
 
