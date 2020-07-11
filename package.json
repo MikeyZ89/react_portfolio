@@ -2,7 +2,7 @@
   "name": "mz-react-portfolio",
   "version": "0.1.0",
   "private": true,
-  // "homepage": "http://mikeyz89.github.io/react_portfolio",
+  
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
