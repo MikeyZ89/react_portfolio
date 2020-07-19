@@ -17,17 +17,20 @@ class Carousel extends React.Component {
                 {
                     id: 0,
                     title: 'Mike Zlotkowski',
-                    subTitle: 'LinkedIN',
+                    subTitle: 'Michael.Zlotkowski@gmail.com',
+                    subTitle1: '(602)370-6110',
+                    subTitle2: 'LinkedIN',
                     imgSrc: mz,
                     link: 'https://www.linkedin.com/in/mike-zlotkowski/',
                     selected: false
                 },
                 {
                     id: 1,
-                    title: 'Z\'s Featured Application',
-                    subTitle: 'Employee Directory',
+                    title: 'MIKEZLOT.com',
+                    subTitle: 'WordPress Development',
+                    subTitle1: 'Example Site',
                     imgSrc: z,
-                    link: 'https://mikeyz89.github.io/employee_directory/',
+                    link: 'https://mikezlot.com',
                     selected: false
                 },
                 {

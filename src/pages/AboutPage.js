@@ -12,6 +12,9 @@ function AboutPage(props) {
             <Content>
             
             <h1>Mike Zlotkowski</h1>
+            <h6>GitHub: MikeyZ89</h6>
+            <h6>Phone: 602-370-6110</h6>
+            <h6>Email: Michael.Zlotkowski@gmail.com</h6>
 
             <p>I'm new to the world of Web Development, my story always faught going back to school and Covid-19 changed the days of me working behind a bar as stable employment. Now I find myself diving head first into a full stack engineer role with the experience so far in the MERN STACK (MongoDB, Express, React, Node JS). Development was something I was always interested in, but finally took the leap and I'm loving every minute of it.</p>
 
@@ -46,10 +49,6 @@ function AboutPage(props) {
             <a href="https://drive.google.com/file/d/1t2G97X33wwA5kukRqXG6vPSYFPI43gEk/view?usp=sharing">RESUME</a>
             <br></br>
             <br></br>
-            <h6>GitHub: MikeyZ89</h6>
-            <h6>Phone: 602-370-6110</h6>
-            <h6>Email: Michael.Zlotkowski@gmail.com</h6>
-            
 
             </Content>
 
