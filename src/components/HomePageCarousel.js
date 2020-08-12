@@ -26,8 +26,8 @@ class HomePageCarousel extends React.Component {
                 {
                     id: 1,
                     title: 'MIKEZLOT.com',
-                    subTitle: 'WordPress Development',
-                    subTitle1: 'Example Site',
+                    subTitle: 'React Development',
+                    subTitle1: 'Component Based Design',
                     imgSrc: z,
                     link: 'https://mikezlot.com',
                     selected: false
