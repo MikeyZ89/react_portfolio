@@ -1,6 +1,5 @@
 import React from 'react';
 
-import github from '../assets/images/github.png';
 import ChoogleCardImage from '../assets/images/ChoogleCardImage.png';
 import NoatsCardImage from '../assets/images/NoatsCardImage.png';
 import TheshCardImage from '../assets/images/TheshCardImage.png';
