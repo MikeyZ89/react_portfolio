@@ -1,14 +1,15 @@
 import React from 'react';
 
-import Card from '../components/Card';
-
 import z from '../assets/images/z.png';
 import mz from '../assets/images/mz.png';
 import github from '../assets/images/github.png';
+
+import HomePageCard from '../components/HomePageCard';
+
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 
-class Carousel extends React.Component {
+class HomePageCarousel extends React.Component {
 
     constructor(props) {
         super(props);
@@ -17,11 +18,9 @@ class Carousel extends React.Component {
                 {
                     id: 0,
                     title: 'Mike Zlotkowski',
-                    subTitle: 'Michael.Zlotkowski@gmail.com',
-                    subTitle1: '(602)370-6110',
-                    subTitle2: 'LinkedIN',
+                    subTitle2: 'Contact Me',
                     imgSrc: mz,
-                    link: 'https://www.linkedin.com/in/mike-zlotkowski/',
+                    link: 'https://www.tappy.tech/mikez',
                     selected: false
                 },
                 {
@@ -66,7 +65,7 @@ class Carousel extends React.Component {
 
     makeItems = (items) => {
         return items.map(item => {
-            return <Card item={item} click={(e => this.handleCardClick(item.id, e))} key={item.id} />
+            return <HomePageCard item={item} click={(e => this.handleCardClick(item.id, e))} key={item.id} />
         })
     }
 
@@ -83,4 +82,4 @@ class Carousel extends React.Component {
 
 }
 
-export default Carousel;
+export default HomePageCarousel;
