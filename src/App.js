@@ -26,7 +26,7 @@ class App extends React.Component {
         { title: 'Contact', path: '/contact' }
       ],
       home: {
-        title: 'Mike Zlotkowski',
+        title: 'Mike Zlot',
         text: 'React Web Development / Graphic Design Portfolio'
       },
       about: {
@@ -36,7 +36,7 @@ class App extends React.Component {
         title: 'Graphic Design'
       },
       contact: {
-        title: 'Any Questions?'
+        title: 'Contact'
       }
     }
   }
