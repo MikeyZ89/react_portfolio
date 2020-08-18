@@ -12,7 +12,7 @@ function Footer() {
             <Container fluid={true}>
                 <Row className="border-top justify-content-middle">
                     <Col className="center pt-3">
-                        <h6><img src={mzlogo} alt="MZ Logo" height="30px" width="40px"/> All Rights Reserved 2020</h6>
+                        <h6><img src={mzlogo} alt="MZ Logo" height="auto" width="40px"/> All Rights Reserved 2020</h6>
                     </Col>
                 </Row>
             </Container>
